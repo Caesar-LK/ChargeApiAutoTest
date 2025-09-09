@@ -1,8 +1,8 @@
 package org.example.suite;
 
 import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+
 
 /**
  * @author :Caesar

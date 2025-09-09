@@ -10,11 +10,13 @@ public class BasicAnnotation {
     //最基本的注解，用来把方法标记为测试的一部分
     @Test
     public void TestCase1() {
+        System.out.printf("Thread Id : %s%n",Thread.currentThread().getId());
         System.out.println("这个是测试用例 1");
     }
 
     @BeforeMethod
     public  void beforeMethod() {
+        System.out.printf("Thread Id : %s%n",Thread.currentThread().getId());
         System.out.println("这是在测试方法之前运行");
     }
 

@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f4c7e05-d1e0-4e83-92e7-3a0815d57f54" name="Changes" comment="0908TestNg相关构件" />
+    <list default="true" id="7f4c7e05-d1e0-4e83-92e7-3a0815d57f54" name="Changes" comment="0909TestNg相关构件">
+      <change afterPath="$PROJECT_DIR$/ChargeApi/src/main/java/org/example/DepandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChargeApi/src/main/java/org/example/ExpectedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChargeApi/src/main/java/org/example/multiThread/MultiThreadOnAnnotion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChargeApi/src/main/java/org/example/multiThread/MultiThreadOnXml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChargeApi/src/main/java/org/example/parameter/DataProviderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChargeApi/src/main/java/org/example/parameter/ParameterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChargeApi/src/main/java/org/example/suite/timeoutTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChargeApi/src/main/resources/multiThread.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChargeApi/src/main/resources/paramter.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChargeApi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ChargeApi/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChargeApi/src/main/java/org/example/BasicAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChargeApi/src/main/java/org/example/BasicAnnotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChargeApi/src/main/java/org/example/groups/GroupsOnMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChargeApi/src/main/java/org/example/groups/GroupsOnMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChargeApi/src/main/java/org/example/suite/IgnoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChargeApi/src/main/java/org/example/suite/IgnoreTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChargeApi/target/classes/org/example/BasicAnnotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/ChargeApi/target/classes/org/example/BasicAnnotation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChargeApi/target/classes/org/example/groups/GroupsOnMethod.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,15 +59,33 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG./Users/Caesar/ideaworkspace/ChargeApiAutoTest/ChargeApi/src/main/resources/groupsonclass.xml.executor": "Run",
+    "TestNG./Users/Caesar/ideaworkspace/ChargeApiAutoTest/ChargeApi/src/main/resources/multiThread.xml (1).executor": "Run",
+    "TestNG./Users/Caesar/ideaworkspace/ChargeApiAutoTest/ChargeApi/src/main/resources/multiThread.xml.executor": "Run",
+    "TestNG./Users/Caesar/ideaworkspace/ChargeApiAutoTest/ChargeApi/src/main/resources/paramter.xml.executor": "Run",
     "TestNG./Users/Caesar/ideaworkspace/ChargeApiAutoTest/ChargeApi/src/main/resources/suite.xml.executor": "Run",
     "TestNG.BasicAnnotation.TestCase1.executor": "Run",
     "TestNG.BasicAnnotation.TestCase2.executor": "Run",
     "TestNG.BasicAnnotation.executor": "Run",
+    "TestNG.DataProviderTest (1).executor": "Run",
+    "TestNG.DataProviderTest.executor": "Run",
+    "TestNG.DataProviderTest.test1.executor": "Run",
+    "TestNG.DataProviderTest.test2.executor": "Run",
+    "TestNG.DepandTest.Test02.executor": "Run",
+    "TestNG.ExpectedException.executor": "Run",
+    "TestNG.ExpectedException.runTimeExceptionSuccess.executor": "Run",
+    "TestNG.GroupsOnClass2.executor": "Run",
     "TestNG.GroupsOnMethod.executor": "Run",
     "TestNG.GroupsOnMethod.test1.executor": "Run",
     "TestNG.IgnoreTest (1).executor": "Run",
     "TestNG.IgnoreTest (2).executor": "Run",
     "TestNG.IgnoreTest.executor": "Run",
+    "TestNG.IgnoreTest.ignore01.executor": "Run",
+    "TestNG.MultiThreadOnXml.executor": "Run",
+    "TestNG.ParameterTest.executor": "Run",
+    "TestNG.ParamterTest.executor": "Run",
+    "TestNG.multiThreadOnAnnotion.executor": "Run",
+    "TestNG.multiThreadOnAnnotion.test01.executor": "Run",
+    "TestNG.timeoutTest.executor": "Run",
     "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -58,8 +94,8 @@
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "/Users/Caesar/ideaworkspace/ChargeApiAutoTest/ChargeApi/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.editor",
     "vue.rearranger.settings.migration": "true"
   }
@@ -69,54 +105,8 @@
       <recent name="org.example.suite" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG./Users/Caesar/ideaworkspace/ChargeApiAutoTest/ChargeApi/src/main/resources/groupsonclass.xml">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="ChargeApiAutoTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="ChargeApiAutoTest" />
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
-    <configuration name="GroupsOnMethod" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ChargeApi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.groups.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.groups" />
-      <option name="MAIN_CLASS_NAME" value="org.example.groups.GroupsOnMethod" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GroupsOnMethod.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ChargeApi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.groups.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.groups" />
-      <option name="MAIN_CLASS_NAME" value="org.example.groups.GroupsOnMethod" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IgnoreTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.timeoutTest">
+    <configuration name="IgnoreTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ChargeApi" />
       <extension name="coverage">
         <pattern>
@@ -133,16 +123,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IgnoreTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="IgnoreTest.ignore01" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ChargeApi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.groups.*" />
+          <option name="PATTERN" value="org.example.suite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example.suite" />
       <option name="MAIN_CLASS_NAME" value="org.example.suite.IgnoreTest" />
+      <option name="METHOD_NAME" value="ignore01" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiThreadOnXml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ChargeApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.multiThread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.mulitThread" />
+      <option name="MAIN_CLASS_NAME" value="org.example.multiThread.MultiThreadOnXml" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -150,27 +158,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IgnoreTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/Caesar/ideaworkspace/ChargeApiAutoTest/ChargeApi/src/main/resources/multiThread.xml (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ChargeApi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.groups.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.suite" />
-      <option name="MAIN_CLASS_NAME" value="org.example.suite.IgnoreTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="/Users/Caesar/ideaworkspace/ChargeApiAutoTest/ChargeApi/src/main/resources/groupsonclass.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ChargeApi" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/ChargeApi/src/main/resources/groupsonclass.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/ChargeApi/src/main/resources/multiThread.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="timeoutTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ChargeApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.suite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.suite" />
+      <option name="MAIN_CLASS_NAME" value="org.example.suite.timeoutTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -179,19 +187,19 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./Users/Caesar/ideaworkspace/ChargeApiAutoTest/ChargeApi/src/main/resources/groupsonclass.xml" />
-        <item itemvalue="TestNG.GroupsOnMethod" />
-        <item itemvalue="TestNG.GroupsOnMethod.test1" />
-        <item itemvalue="TestNG.IgnoreTest (2)" />
-        <item itemvalue="TestNG.IgnoreTest (1)" />
+        <item itemvalue="TestNG.timeoutTest" />
+        <item itemvalue="TestNG./Users/Caesar/ideaworkspace/ChargeApiAutoTest/ChargeApi/src/main/resources/multiThread.xml (1)" />
+        <item itemvalue="TestNG.MultiThreadOnXml" />
+        <item itemvalue="TestNG.IgnoreTest.ignore01" />
+        <item itemvalue="TestNG.IgnoreTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26094.121" />
-        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-IU-251.26094.121" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.28293.39" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.28293.39" />
       </set>
     </attachedChunks>
   </component>
@@ -205,7 +213,8 @@
       <workItem from="1757295762084" duration="2238000" />
       <workItem from="1757303549036" duration="20000" />
       <workItem from="1757303570878" duration="1200000" />
-      <workItem from="1757308646425" duration="11625000" />
+      <workItem from="1757308646425" duration="26550000" />
+      <workItem from="1757402879070" duration="5718000" />
     </task>
     <task id="LOCAL-00001" summary="0908TestNg相关构件">
       <option name="closed" value="true" />
@@ -223,7 +232,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757326027608</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="0909TestNg相关构件">
+      <option name="closed" value="true" />
+      <created>1757380793068</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1757380793068</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,7 +259,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="0908TestNg相关构件" />
-    <option name="LAST_COMMIT_MESSAGE" value="0908TestNg相关构件" />
+    <MESSAGE value="0909TestNg相关构件" />
+    <option name="LAST_COMMIT_MESSAGE" value="0909TestNg相关构件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
