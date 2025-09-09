@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f4c7e05-d1e0-4e83-92e7-3a0815d57f54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ChargeApi/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChargeApi/src/main/java/org/example/BasicAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChargeApi/src/main/java/org/example/groups/GroupsOnClass1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChargeApi/src/main/java/org/example/groups/GroupsOnClass2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChargeApi/src/main/java/org/example/groups/GroupsOnClass3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChargeApi/src/main/java/org/example/groups/GroupsOnMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChargeApi/src/main/java/org/example/suite/IgnoreTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChargeApi/src/main/java/org/example/suite/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChargeApi/src/main/java/org/example/suite/PayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChargeApi/src/main/java/org/example/suite/SuiteConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChargeApi/src/main/resources/groupsonclass.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChargeApi/src/main/resources/suite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7f4c7e05-d1e0-4e83-92e7-3a0815d57f54" name="Changes" comment="0908TestNg相关构件" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -221,8 +205,25 @@
       <workItem from="1757295762084" duration="2238000" />
       <workItem from="1757303549036" duration="20000" />
       <workItem from="1757303570878" duration="1200000" />
-      <workItem from="1757308646425" duration="10682000" />
+      <workItem from="1757308646425" duration="11625000" />
     </task>
+    <task id="LOCAL-00001" summary="0908TestNg相关构件">
+      <option name="closed" value="true" />
+      <created>1757326015401</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1757326015401</updated>
+    </task>
+    <task id="LOCAL-00002" summary="0908TestNg相关构件">
+      <option name="closed" value="true" />
+      <created>1757326027608</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1757326027608</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +239,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="0908TestNg相关构件" />
+    <option name="LAST_COMMIT_MESSAGE" value="0908TestNg相关构件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
