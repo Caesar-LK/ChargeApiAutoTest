@@ -9,5 +9,6 @@
   <url>http://maven.apache.org</url>
   <modules>
     <module>ChargeApi</module>
+    <module>Report</module>
   </modules>
 </project>

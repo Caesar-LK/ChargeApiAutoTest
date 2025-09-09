@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<suite name = "我自己的接口套件">
+    <test name = "测试模块">
+                <classes>
+
+                    <class name = "com.tester.extend.demo.TestMethodDemo">
+                        <method>
+                            <include name ="test1"/>
+                            <include name ="test2"/>
+                            <include name ="test3"/>
+                            <include name ="logDemo"/>
+                         </method>
+
+                    </class>
+                </classes>
+    </test>
+<listeners>
+    <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"/>
+</listeners>
+</suite>
