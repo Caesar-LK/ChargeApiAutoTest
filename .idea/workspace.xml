@@ -1,16 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+    <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f4c7e05-d1e0-4e83-92e7-3a0815d57f54" name="Changes" comment="0909TestNg相关内容练习">
-      <change afterPath="$PROJECT_DIR$/Report/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Report/src/main/java/com/tester/extend/demo/ExtentTestIReportListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Report/src/main/java/com/tester/extend/demo/TestMethodDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Report/src/main/resources/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Httpclient/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Httpclient/src/main/java/com/course/httpclient/cookies/MyCookiesForGet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Httpclient/src/main/java/com/course/httpclient/demo/MyHttpclient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Httpclient/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moco/BasicOperationInstructions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moco/moco-runner-0.11.0-standalone.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moco/startup1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moco/startupget.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moco/startuppost.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moco/startupwithHeader.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moco/startupwithcookies.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moco/startupwithredirect.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Report/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Report/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Report/src/main/java/com/tester/extend/demo/ExtentTestIReportListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/Report/src/main/java/com/tester/extend/demo/ExtentTestIReportListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Report/src/main/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Report/src/main/resources/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Report/target/classes/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Report/target/classes/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Report/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Report/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Report/test-output/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Report/test-output/report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,59 +86,52 @@
     "TestNG.IgnoreTest.executor": "Run",
     "TestNG.IgnoreTest.ignore01.executor": "Run",
     "TestNG.MultiThreadOnXml.executor": "Run",
+    "TestNG.MyCookiesForGet.executor": "Run",
+    "TestNG.MyHttpclient.executor": "Run",
+    "TestNG.MyHttpclient.test01.executor": "Run",
     "TestNG.ParameterTest.executor": "Run",
     "TestNG.ParamterTest.executor": "Run",
     "TestNG.multiThreadOnAnnotion.executor": "Run",
     "TestNG.multiThreadOnAnnotion.test01.executor": "Run",
     "TestNG.timeoutTest.executor": "Run",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/Caesar/ideaworkspace/ChargeApiAutoTest/Moco",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/Caesar/ideaworkspace/ChargeApiAutoTest/Report/src/main/java/org/example/Main.java",
+    "onboarding.tips.debug.path": "/Users/Caesar/ideaworkspace/ChargeApiAutoTest/Httpclient/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "settings.build.tools.auto.reload": "ALL",
+    "settings.editor.selected.configurable": "build.tools",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Moco" />
+    </key>
     <key name="MoveInnerDialog.RECENTS_KEY">
       <recent name="org.example.suite" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tester.extend.demo" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG./Users/Caesar/ideaworkspace/ChargeApiAutoTest/Report/src/main/resources/testng.xml">
-    <configuration name="IgnoreTest.ignore01" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ChargeApi" />
+  <component name="RunManager" selected="TestNG.MyCookiesForGet">
+    <configuration name="MyCookiesForGet" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Httpclient" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.suite.*" />
+          <option name="PATTERN" value="com.course.httpclient.cookies.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.suite" />
-      <option name="MAIN_CLASS_NAME" value="org.example.suite.IgnoreTest" />
-      <option name="METHOD_NAME" value="ignore01" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MultiThreadOnXml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ChargeApi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.multiThread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.mulitThread" />
-      <option name="MAIN_CLASS_NAME" value="org.example.multiThread.MultiThreadOnXml" />
+      <option name="PACKAGE_NAME" value="com.course.httpclient.cookies" />
+      <option name="MAIN_CLASS_NAME" value="com.course.httpclient.cookies.MyCookiesForGet" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -132,10 +139,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/Caesar/ideaworkspace/ChargeApiAutoTest/ChargeApi/src/main/resources/multiThread.xml (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ChargeApi" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/ChargeApi/src/main/resources/multiThread.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+    <configuration name="MyHttpclient" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Httpclient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.httpclient.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.course.httpclient.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.course.httpclient.demo.MyHttpclient" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyHttpclient.test01" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Httpclient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.httpclient.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.course.httpclient.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.course.httpclient.demo.MyHttpclient" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -171,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.MyCookiesForGet" />
+        <item itemvalue="TestNG.MyHttpclient.test01" />
+        <item itemvalue="TestNG.MyHttpclient" />
         <item itemvalue="TestNG./Users/Caesar/ideaworkspace/ChargeApiAutoTest/Report/src/main/resources/testng.xml" />
         <item itemvalue="TestNG.timeoutTest" />
-        <item itemvalue="TestNG./Users/Caesar/ideaworkspace/ChargeApiAutoTest/ChargeApi/src/main/resources/multiThread.xml (1)" />
-        <item itemvalue="TestNG.MultiThreadOnXml" />
-        <item itemvalue="TestNG.IgnoreTest.ignore01" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +230,7 @@
       <workItem from="1757303549036" duration="20000" />
       <workItem from="1757303570878" duration="1200000" />
       <workItem from="1757308646425" duration="26550000" />
-      <workItem from="1757402879070" duration="8701000" />
+      <workItem from="1757402879070" duration="44320000" />
     </task>
     <task id="LOCAL-00001" summary="0908TestNg相关构件">
       <option name="closed" value="true" />
@@ -240,7 +272,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757409096081</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="0909TestNg相关内容练习">
+      <option name="closed" value="true" />
+      <created>1757412144525</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1757412144525</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

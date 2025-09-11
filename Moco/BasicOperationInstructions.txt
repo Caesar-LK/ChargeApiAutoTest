@@ -1,0 +1,10 @@
+java -jar ./moco-runner-0.11.0-standalone.jar - p 8888 -c json 配置文件
+
+
+java -jar ./moco-runner-0.11.0-standalone.jar - p 8888 -c startup1.json
+
+
+Java -jar Java 的启动命令
+当前文件夹下
+-p point端口号
+-c 就是指 json 文件，来进行 MOCO 的框架的配置文件

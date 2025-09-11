@@ -10,5 +10,6 @@
   <modules>
     <module>ChargeApi</module>
     <module>Report</module>
+      <module>Httpclient</module>
   </modules>
 </project>

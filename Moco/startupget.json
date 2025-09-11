@@ -1,0 +1,28 @@
+[
+  {
+    "description": "模拟一个没有参数的 get 请求",
+    "request": {
+      "uri": "/getdemo",
+      "method": "get"
+    },
+    "response": {
+      "text": "这是一个没有参数的 get请求"
+    }
+  },
+
+
+  {
+    "description": "模拟一个带参数的 get 请求",
+    "request": {
+      "uri": "/getwithparam",
+      "method": "get",
+      "queries": {
+        "name": "张三",
+        "age": "11"
+      }
+    },
+    "response": {
+      "text": "今天天气晴朗，秋高气爽，真不错"
+    }
+  }
+]
