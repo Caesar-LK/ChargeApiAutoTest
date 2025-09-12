@@ -23,6 +23,12 @@
             <version>7.5.1</version>
             <scope>compile</scope>
         </dependency>
+
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20160810</version>
+        </dependency>
     </dependencies>
 
 </project>

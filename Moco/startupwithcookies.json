@@ -8,8 +8,7 @@
     },
     "response": {
       "cookies": {
-        "login": "true",
-        "status": "100"
+        "login": "true"
       },
       "text": "成功获取 cookies信息"
     }
@@ -40,6 +39,7 @@
         "age": "19"
       }
     },
+
     "response": {
       "status": 200,
       "json": {

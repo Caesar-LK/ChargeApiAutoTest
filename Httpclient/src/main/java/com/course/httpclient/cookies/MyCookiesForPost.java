@@ -2,31 +2,27 @@ package com.course.httpclient.cookies;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.client.CookieStore;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.ResponseHandler;
 import org.apache.http.client.methods.HttpGet;
+import org.apache.http.client.methods.HttpPost;
 import org.apache.http.cookie.Cookie;
-import org.apache.http.impl.client.BasicCookieStore;
+import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.util.EntityUtils;
+import org.json.JSONObject;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
-import java.net.HttpCookie;
 import java.util.List;
 import java.util.Locale;
 import java.util.ResourceBundle;
 
 /**
  * @author :Caesar
- * @date 2025/09/11 17:06
+ * @date 2025/09/12 14:53
  **/
-
-
-//包括怎么去获得 cookie，以及怎么携带 cookie去访问
-
-public class MyCookiesForGet {
+public class MyCookiesForPost {
 
     //读取配置文件
     private String url;
@@ -68,25 +64,41 @@ public class MyCookiesForGet {
         }
     }
     @Test(dependsOnMethods = "testGetCookies")
-    public void TestGetWithCookies() throws IOException {
-        String uri = bundle.getString("test.get.with.cookies");
-        //拼接URL，这个时候已经获取到了测试地址
-        String testurl = url+uri;
-        //声明一个客户端，在声明一个执行方法，再把 cookie store 带进去
-        HttpGet httpGet = new HttpGet(testurl);
-        DefaultHttpClient client = new DefaultHttpClient();
+    public void testPostMethod() throws IOException {
+    String uri = bundle.getString("test.post.with.cookies");
+    //拼接最终的测试地址
+    String testurl = url+uri;
+    //声明一个client 对象，用来就行方法的执行
+    DefaultHttpClient client = new DefaultHttpClient();
+    //声明一个方法，这个方法是 post 方法
+        HttpPost httpPost = new HttpPost(testurl);
+    //添加参数
+        JSONObject param  = new JSONObject();
+        param.put("name", "wangwu");
+        param.put("age", 19);
+    //设置请求头信息，添加 header
+    httpPost.setHeader("content-type","application/json");
+    //将参数信息添加到方法中
+    StringEntity stringEntity = new StringEntity(param.toString(),"UTF-8");
+    httpPost.setEntity(stringEntity);
+    //声明一个对象来进行响应结果的存储
+    String result;
+    //设置 cookies 信息
+    client.setCookieStore(store);
+    //执行 post 方法
+    HttpResponse response = client.execute(httpPost);
+    //获取响应结果
+     result = EntityUtils.toString(response.getEntity(),"UTF-8");
+     System.out.println(result);
+    //处理结果，就是判断返回结果身份符合预期
+    //将返回的响应结果字符串转换为 json 对象
+    JSONObject resultJson = new JSONObject(result);
 
-        //设置 cookies信息
-        client.setCookieStore(store);
-
-        HttpResponse response = client.execute(httpGet);
-        //获取响应的状态码
-        int statusCode = response.getStatusLine().getStatusCode();
-        System.out.println("statusCode=="+statusCode);
-
-        if (statusCode == 200) {
-            String result = EntityUtils.toString(response.getEntity(),"UTF-8");
-            System.out.println(result);
-        }
+    //获取到结果值
+    String success = (String)resultJson.get("wangwu");
+    String status = (String)resultJson.get("status");
+    //具体的判断返回结果的值
+    Assert.assertEquals("success",success);
+    Assert.assertEquals("1",status);
     }
 }
