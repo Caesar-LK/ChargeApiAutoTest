@@ -36,6 +36,10 @@ public class MyCookiesForPost {
         bundle = ResourceBundle.getBundle("application", Locale.CHINA);
         url = bundle.getString("test.url");
     }
+
+
+
+
     @Test
     public void testGetCookies() throws IOException {
         String result;
@@ -67,36 +71,39 @@ public class MyCookiesForPost {
     public void testPostMethod() throws IOException {
     String uri = bundle.getString("test.post.with.cookies");
     //拼接最终的测试地址
-    String testurl = url+uri;
+    String testurl = this.url+uri;
     //声明一个client 对象，用来就行方法的执行
     DefaultHttpClient client = new DefaultHttpClient();
     //声明一个方法，这个方法是 post 方法
-        HttpPost httpPost = new HttpPost(testurl);
+    HttpPost Post = new HttpPost(testurl);
     //添加参数
-        JSONObject param  = new JSONObject();
-        param.put("name", "wangwu");
-        param.put("age", 19);
+    JSONObject param  = new JSONObject();
+    param.put("name", "wangwu");
+    param.put("age", "19");
     //设置请求头信息，添加 header
-    httpPost.setHeader("content-type","application/json");
+    Post.setHeader("content-type","application/json");
     //将参数信息添加到方法中
     StringEntity stringEntity = new StringEntity(param.toString(),"UTF-8");
-    httpPost.setEntity(stringEntity);
+    Post.setEntity(stringEntity);
     //声明一个对象来进行响应结果的存储
     String result;
     //设置 cookies 信息
     client.setCookieStore(store);
     //执行 post 方法
-    HttpResponse response = client.execute(httpPost);
+    HttpResponse response = client.execute(Post);
     //获取响应结果
      result = EntityUtils.toString(response.getEntity(),"UTF-8");
+        System.out.println("Status Line: " + response.getStatusLine());
+        System.out.println("Response: " + result);
      System.out.println(result);
     //处理结果，就是判断返回结果身份符合预期
     //将返回的响应结果字符串转换为 json 对象
+
     JSONObject resultJson = new JSONObject(result);
 
     //获取到结果值
-    String success = (String)resultJson.get("wangwu");
-    String status = (String)resultJson.get("status");
+    String success = (String) resultJson.get("wangwu");
+    String status = (String) resultJson.get("status");
     //具体的判断返回结果的值
     Assert.assertEquals("success",success);
     Assert.assertEquals("1",status);

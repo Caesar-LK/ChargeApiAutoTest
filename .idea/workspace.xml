@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f4c7e05-d1e0-4e83-92e7-3a0815d57f54" name="Changes" comment="0911TestNg相关内容学习">
-      <change afterPath="$PROJECT_DIR$/Httpclient/src/main/java/com/course/httpclient/cookies/MyCookiesForPost.java" afterDir="false" />
+    <list default="true" id="7f4c7e05-d1e0-4e83-92e7-3a0815d57f54" name="Changes" comment="0912TestNg相关内容学习">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Httpclient/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Httpclient/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Httpclient/src/main/java/com/course/httpclient/cookies/MyCookiesForGet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Httpclient/src/main/java/com/course/httpclient/cookies/MyCookiesForGet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Httpclient/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Httpclient/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Httpclient/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Httpclient/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moco/startupwithcookies.json" beforeDir="false" afterPath="$PROJECT_DIR$/Moco/startupwithcookies.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Httpclient/src/main/java/com/course/httpclient/cookies/MyCookiesForPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/Httpclient/src/main/java/com/course/httpclient/cookies/MyCookiesForPost.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +71,7 @@
     "TestNG.MyCookiesForGet.executor": "Run",
     "TestNG.MyCookiesForGet.testGetCookies.executor": "Run",
     "TestNG.MyCookiesForPost.executor": "Run",
+    "TestNG.MyCookiesForPost.testPostMethod.executor": "Run",
     "TestNG.MyHttpclient.executor": "Run",
     "TestNG.MyHttpclient.test01.executor": "Run",
     "TestNG.ParameterTest.executor": "Run",
@@ -110,7 +106,7 @@
       <recent name="com.tester.extend.demo" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.MyCookiesForPost">
+  <component name="RunManager" selected="TestNG.MyCookiesForPost.testPostMethod">
     <configuration name="MyCookiesForGet" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Httpclient" />
       <extension name="coverage">
@@ -181,17 +177,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyHttpclient.test01" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MyCookiesForPost.testPostMethod" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Httpclient" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.course.httpclient.demo.*" />
+          <option name="PATTERN" value="com.course.httpclient.cookies.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.course.httpclient.demo" />
-      <option name="MAIN_CLASS_NAME" value="com.course.httpclient.demo.MyHttpclient" />
-      <option name="METHOD_NAME" value="test01" />
+      <option name="PACKAGE_NAME" value="com.course.httpclient.cookies" />
+      <option name="MAIN_CLASS_NAME" value="com.course.httpclient.cookies.MyCookiesForPost" />
+      <option name="METHOD_NAME" value="testPostMethod" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -201,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.MyCookiesForPost.testPostMethod" />
         <item itemvalue="TestNG.MyCookiesForPost" />
         <item itemvalue="TestNG.MyCookiesForGet.TestGetWithCookies" />
         <item itemvalue="TestNG.MyCookiesForGet.testGetCookies" />
         <item itemvalue="TestNG.MyCookiesForGet" />
-        <item itemvalue="TestNG.MyHttpclient.test01" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +224,7 @@
       <workItem from="1757303549036" duration="20000" />
       <workItem from="1757303570878" duration="1200000" />
       <workItem from="1757308646425" duration="26550000" />
-      <workItem from="1757402879070" duration="61998000" />
+      <workItem from="1757402879070" duration="68444000" />
     </task>
     <task id="LOCAL-00001" summary="0908TestNg相关构件">
       <option name="closed" value="true" />
@@ -286,7 +282,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757584737643</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="0912TestNg相关内容学习">
+      <option name="closed" value="true" />
+      <created>1757671419712</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1757671419712</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,7 +312,8 @@
     <MESSAGE value="0909TestNg相关构件" />
     <MESSAGE value="0909TestNg相关内容练习" />
     <MESSAGE value="0911TestNg相关内容学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="0911TestNg相关内容学习" />
+    <MESSAGE value="0912TestNg相关内容学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="0912TestNg相关内容学习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
