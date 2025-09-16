@@ -12,6 +12,7 @@
         <module name="ChargeApi" />
         <module name="Httpclient" />
         <module name="Report" />
+        <module name="AboutSpringboot" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

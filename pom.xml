@@ -11,5 +11,6 @@
     <module>ChargeApi</module>
     <module>Report</module>
       <module>Httpclient</module>
+    <module>AboutSpringboot</module>
   </modules>
 </project>
