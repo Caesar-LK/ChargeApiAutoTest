@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f4c7e05-d1e0-4e83-92e7-3a0815d57f54" name="Changes" comment="0915TestNg相关内容学习">
-      <change afterPath="$PROJECT_DIR$/AboutSpringboot/pom.xml" afterDir="false" />
+    <list default="true" id="7f4c7e05-d1e0-4e83-92e7-3a0815d57f54" name="Changes" comment="0916TestNg相关内容学习">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AboutSpringboot/src/main/java/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AboutSpringboot/src/main/java/com/course/server/MyGetMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AboutSpringboot/src/main/java/hello/SampleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AboutSpringboot/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AboutSpringboot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AboutSpringboot/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,10 +47,16 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Application.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.SampleController.executor": "Run",
     "TestNG./Users/Caesar/ideaworkspace/ChargeApiAutoTest/ChargeApi/src/main/resources/groupsonclass.xml.executor": "Run",
     "TestNG./Users/Caesar/ideaworkspace/ChargeApiAutoTest/ChargeApi/src/main/resources/multiThread.xml (1).executor": "Run",
     "TestNG./Users/Caesar/ideaworkspace/ChargeApiAutoTest/ChargeApi/src/main/resources/multiThread.xml.executor": "Run",
@@ -92,7 +105,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.build.tools.auto.reload": "ALL",
-    "settings.editor.selected.configurable": "build.tools",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -107,20 +120,23 @@
       <recent name="com.tester.extend.demo" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.MyCookiesForPost.testPostMethod">
-    <configuration name="MyCookiesForGet" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Httpclient" />
+  <component name="RunManager" selected="Application.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Application" />
+      <module name="AboutSpringboot" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SampleController" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="AboutSpringboot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hello.SampleController" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.course.httpclient.cookies.*" />
+          <option name="PATTERN" value="hello.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.course.httpclient.cookies" />
-      <option name="MAIN_CLASS_NAME" value="com.course.httpclient.cookies.MyCookiesForGet" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -136,24 +152,6 @@
       <option name="PACKAGE_NAME" value="com.course.httpclient.cookies" />
       <option name="MAIN_CLASS_NAME" value="com.course.httpclient.cookies.MyCookiesForGet" />
       <option name="METHOD_NAME" value="TestGetWithCookies" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyCookiesForGet.testGetCookies" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Httpclient" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.course.httpclient.cookies.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.course.httpclient.cookies" />
-      <option name="MAIN_CLASS_NAME" value="com.course.httpclient.cookies.MyCookiesForGet" />
-      <option name="METHOD_NAME" value="testGetCookies" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -198,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Application" />
+        <item itemvalue="Spring Boot.SampleController" />
         <item itemvalue="TestNG.MyCookiesForPost.testPostMethod" />
         <item itemvalue="TestNG.MyCookiesForPost" />
         <item itemvalue="TestNG.MyCookiesForGet.TestGetWithCookies" />
-        <item itemvalue="TestNG.MyCookiesForGet.testGetCookies" />
-        <item itemvalue="TestNG.MyCookiesForGet" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +223,7 @@
       <workItem from="1757303549036" duration="20000" />
       <workItem from="1757303570878" duration="1200000" />
       <workItem from="1757308646425" duration="26550000" />
-      <workItem from="1757402879070" duration="71093000" />
+      <workItem from="1757402879070" duration="92849000" />
     </task>
     <task id="LOCAL-00001" summary="0908TestNg相关构件">
       <option name="closed" value="true" />
@@ -299,7 +297,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757928919494</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="0916TestNg相关内容学习">
+      <option name="closed" value="true" />
+      <created>1758017113265</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1758017113265</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,7 +329,8 @@
     <MESSAGE value="0911TestNg相关内容学习" />
     <MESSAGE value="0912TestNg相关内容学习" />
     <MESSAGE value="0915TestNg相关内容学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="0915TestNg相关内容学习" />
+    <MESSAGE value="0916TestNg相关内容学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="0916TestNg相关内容学习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -345,5 +352,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
