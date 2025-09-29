@@ -4,17 +4,16 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f4c7e05-d1e0-4e83-92e7-3a0815d57f54" name="Changes" comment="0916TestNg相关内容学习">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AboutSpringboot/src/main/java/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AboutSpringboot/src/main/java/com/course/server/MyGetMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AboutSpringboot/src/main/java/hello/SampleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AboutSpringboot/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+    <list default="true" id="7f4c7e05-d1e0-4e83-92e7-3a0815d57f54" name="Changes" comment="0919TestNg相关内容学习">
+      <change afterPath="$PROJECT_DIR$/AboutSpringboot/src/main/java/com/course/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AboutSpringboot/src/main/java/com/course/server/MyPostMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AboutSpringboot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AboutSpringboot/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AboutSpringboot/src/main/java/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/AboutSpringboot/src/main/java/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AboutSpringboot/src/main/java/com/course/server/MyGetMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/AboutSpringboot/src/main/java/com/course/server/MyGetMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AboutSpringboot/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/AboutSpringboot/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AboutSpringboot/target/classes/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/AboutSpringboot/target/classes/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AboutSpringboot/target/classes/com/course/server/MyGetMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/AboutSpringboot/target/classes/com/course/server/MyGetMethod.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +55,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.Application.executor": "Run",
     "Spring Boot.SampleController.executor": "Run",
     "TestNG./Users/Caesar/ideaworkspace/ChargeApiAutoTest/ChargeApi/src/main/resources/groupsonclass.xml.executor": "Run",
     "TestNG./Users/Caesar/ideaworkspace/ChargeApiAutoTest/ChargeApi/src/main/resources/multiThread.xml (1).executor": "Run",
@@ -120,7 +120,7 @@
       <recent name="com.tester.extend.demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Application">
+  <component name="RunManager" selected="Spring Boot.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Application" />
       <module name="AboutSpringboot" />
@@ -128,15 +128,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SampleController" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="AboutSpringboot" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="hello.SampleController" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -196,8 +190,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Application" />
         <item itemvalue="Application.Application" />
-        <item itemvalue="Spring Boot.SampleController" />
         <item itemvalue="TestNG.MyCookiesForPost.testPostMethod" />
         <item itemvalue="TestNG.MyCookiesForPost" />
         <item itemvalue="TestNG.MyCookiesForGet.TestGetWithCookies" />
@@ -223,7 +217,12 @@
       <workItem from="1757303549036" duration="20000" />
       <workItem from="1757303570878" duration="1200000" />
       <workItem from="1757308646425" duration="26550000" />
-      <workItem from="1757402879070" duration="92849000" />
+      <workItem from="1757402879070" duration="105530000" />
+      <workItem from="1758784443727" duration="727000" />
+      <workItem from="1758785199570" duration="8291000" />
+      <workItem from="1759020840074" duration="778000" />
+      <workItem from="1759025416950" duration="15332000" />
+      <workItem from="1759127542295" duration="1505000" />
     </task>
     <task id="LOCAL-00001" summary="0908TestNg相关构件">
       <option name="closed" value="true" />
@@ -305,7 +304,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758017113265</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="0919TestNg相关内容学习">
+      <option name="closed" value="true" />
+      <created>1758276726132</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1758276726132</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,7 +337,8 @@
     <MESSAGE value="0912TestNg相关内容学习" />
     <MESSAGE value="0915TestNg相关内容学习" />
     <MESSAGE value="0916TestNg相关内容学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="0916TestNg相关内容学习" />
+    <MESSAGE value="0919TestNg相关内容学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="0919TestNg相关内容学习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

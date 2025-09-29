@@ -8,10 +8,10 @@ import org.springframework.context.annotation.ComponentScan;
  * @date 2025/09/18 14:30
  **/
 @SpringBootApplication
-@ComponentScan("com.course.server")
+@ComponentScan("com.course")//作用是告诉系统这个是被扫描的类
 public class Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(Application.class,args);
     }
 }
