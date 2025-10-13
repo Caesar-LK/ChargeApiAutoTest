@@ -36,7 +36,8 @@ public class MyGetMethod {
     @ApiOperation(value = "使用cookies信息进行测试",httpMethod = "GET")
     @RequestMapping(value = "/get/with/cookies",method = RequestMethod.GET)
     public String getWithCookies (HttpServletRequest request) {
-        Cookie[] cookies = request.getCookies();//是一个由很多 key value组成的数组
+        Cookie[] cookies = request.getCookies();
+        //是一个由很多 key value组成的数组
         if(Objects.isNull(cookies)){
             return "你必须携带cookie 信息来";
         }

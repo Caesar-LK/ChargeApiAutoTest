@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f4c7e05-d1e0-4e83-92e7-3a0815d57f54" name="Changes" comment="0919TestNg相关内容学习">
-      <change afterPath="$PROJECT_DIR$/AboutSpringboot/src/main/java/com/course/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AboutSpringboot/src/main/java/com/course/server/MyPostMethod.java" afterDir="false" />
+    <list default="true" id="7f4c7e05-d1e0-4e83-92e7-3a0815d57f54" name="Changes" comment="0929TestNg相关内容学习">
+      <change afterPath="$PROJECT_DIR$/AboutSpringboot/src/main/java/com/course/bean/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AboutSpringboot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AboutSpringboot/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AboutSpringboot/src/main/java/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/AboutSpringboot/src/main/java/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AboutSpringboot/src/main/java/com/course/server/MyGetMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/AboutSpringboot/src/main/java/com/course/server/MyGetMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AboutSpringboot/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/AboutSpringboot/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AboutSpringboot/target/classes/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/AboutSpringboot/target/classes/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AboutSpringboot/src/main/java/com/course/server/MyPostMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/AboutSpringboot/src/main/java/com/course/server/MyPostMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AboutSpringboot/target/classes/com/course/server/MyGetMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/AboutSpringboot/target/classes/com/course/server/MyGetMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AboutSpringboot/target/classes/com/course/server/MyPostMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/AboutSpringboot/target/classes/com/course/server/MyPostMethod.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +37,9 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -223,6 +229,8 @@
       <workItem from="1759020840074" duration="778000" />
       <workItem from="1759025416950" duration="15332000" />
       <workItem from="1759127542295" duration="1505000" />
+      <workItem from="1759129062920" duration="1334000" />
+      <workItem from="1759195888091" duration="21963000" />
     </task>
     <task id="LOCAL-00001" summary="0908TestNg相关构件">
       <option name="closed" value="true" />
@@ -312,7 +320,23 @@
       <option name="project" value="LOCAL" />
       <updated>1758276726132</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="0929TestNg相关内容学习">
+      <option name="closed" value="true" />
+      <created>1759129133962</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1759129133962</updated>
+    </task>
+    <task id="LOCAL-00013" summary="0929TestNg相关内容学习">
+      <option name="closed" value="true" />
+      <created>1759129146430</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1759129146430</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,7 +362,8 @@
     <MESSAGE value="0915TestNg相关内容学习" />
     <MESSAGE value="0916TestNg相关内容学习" />
     <MESSAGE value="0919TestNg相关内容学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="0919TestNg相关内容学习" />
+    <MESSAGE value="0929TestNg相关内容学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="0929TestNg相关内容学习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
