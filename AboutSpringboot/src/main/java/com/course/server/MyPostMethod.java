@@ -50,10 +50,16 @@ return "用户名或者密码错误";
 //                    && "true".equals(c.getValue())
 //                    && "caesar".equals(u.getUserName())
 //                    && "123456".equals(u.getPassword())
-                    c.getName() == "login"
-                    && c.getValue() == "true"
-                    && u.getUserName() == "caesar"
-                    && u.getPassword() == "123456"
+//                    c.getName() == "login"
+//                    && c.getValue() == "true"
+//                    && u.getUserName() == "caesar"
+//                    && u.getPassword() == "123456"
+
+                    c.getName().equals("login")
+                    && c.getValue().equals("true")
+                    && u.getUserName().equals("caesar")
+                    && u.getPassword().equals("123456")
+
             ){
                 user = new User();
                 user.setName("张三");

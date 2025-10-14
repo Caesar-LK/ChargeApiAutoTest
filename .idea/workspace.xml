@@ -7,16 +7,21 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f4c7e05-d1e0-4e83-92e7-3a0815d57f54" name="Changes" comment="0929TestNg相关内容学习">
-      <change afterPath="$PROJECT_DIR$/AboutSpringboot/src/main/java/com/course/bean/User.java" afterDir="false" />
+    <list default="true" id="7f4c7e05-d1e0-4e83-92e7-3a0815d57f54" name="Changes" comment="1013TestNg相关内容学习">
+      <change afterPath="$PROJECT_DIR$/Mybatis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis/src/main/java/com/course/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis/src/main/java/com/course/controller/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis/src/main/java/com/course/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis/src/main/resources/mapper/mysql.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis/src/main/resources/mybatis-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AboutSpringboot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AboutSpringboot/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AboutSpringboot/src/main/java/com/course/server/MyGetMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/AboutSpringboot/src/main/java/com/course/server/MyGetMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AboutSpringboot/src/main/java/com/course/server/MyPostMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/AboutSpringboot/src/main/java/com/course/server/MyPostMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AboutSpringboot/target/classes/com/course/server/MyGetMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/AboutSpringboot/target/classes/com/course/server/MyGetMethod.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AboutSpringboot/target/classes/com/course/server/MyPostMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/AboutSpringboot/target/classes/com/course/server/MyPostMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +66,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.Application (1).executor": "Run",
     "Spring Boot.Application.executor": "Run",
     "Spring Boot.SampleController.executor": "Run",
     "TestNG./Users/Caesar/ideaworkspace/ChargeApiAutoTest/ChargeApi/src/main/resources/groupsonclass.xml.executor": "Run",
@@ -106,7 +112,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/Caesar/ideaworkspace/ChargeApiAutoTest/AboutSpringboot/src/main/java/org/example/Main.java",
+    "onboarding.tips.debug.path": "/Users/Caesar/ideaworkspace/ChargeApiAutoTest/Mybatis/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -119,6 +125,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Moco" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Mybatis/src/main/resources/mapper" />
+    </key>
     <key name="MoveInnerDialog.RECENTS_KEY">
       <recent name="org.example.suite" />
     </key>
@@ -126,7 +135,7 @@
       <recent name="com.tester.extend.demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
+  <component name="RunManager" selected="Spring Boot.Application (1)">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Application" />
       <module name="AboutSpringboot" />
@@ -134,27 +143,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="AboutSpringboot" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="Application" />
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Mybatis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.course.Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyCookiesForGet.TestGetWithCookies" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Httpclient" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.course.httpclient.cookies.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.course.httpclient.cookies" />
-      <option name="MAIN_CLASS_NAME" value="com.course.httpclient.cookies.MyCookiesForGet" />
-      <option name="METHOD_NAME" value="TestGetWithCookies" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="AboutSpringboot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -196,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Application (1)" />
         <item itemvalue="Spring Boot.Application" />
         <item itemvalue="Application.Application" />
         <item itemvalue="TestNG.MyCookiesForPost.testPostMethod" />
         <item itemvalue="TestNG.MyCookiesForPost" />
-        <item itemvalue="TestNG.MyCookiesForGet.TestGetWithCookies" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +234,7 @@
       <workItem from="1759025416950" duration="15332000" />
       <workItem from="1759127542295" duration="1505000" />
       <workItem from="1759129062920" duration="1334000" />
-      <workItem from="1759195888091" duration="21963000" />
+      <workItem from="1759195888091" duration="44055000" />
     </task>
     <task id="LOCAL-00001" summary="0908TestNg相关构件">
       <option name="closed" value="true" />
@@ -336,7 +340,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759129146430</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="1013TestNg相关内容学习">
+      <option name="closed" value="true" />
+      <created>1760350299615</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1760350299615</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,7 +375,8 @@
     <MESSAGE value="0916TestNg相关内容学习" />
     <MESSAGE value="0919TestNg相关内容学习" />
     <MESSAGE value="0929TestNg相关内容学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="0929TestNg相关内容学习" />
+    <MESSAGE value="1013TestNg相关内容学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="1013TestNg相关内容学习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -382,6 +395,11 @@
           <url>file://$PROJECT_DIR$/AboutSpringboot/src/main/java/org/example/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Mybatis/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

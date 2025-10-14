@@ -14,6 +14,7 @@
         <module name="Httpclient" />
         <module name="Report" />
         <module name="AboutSpringboot" />
+        <module name="Mybatis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -25,6 +26,7 @@
       <module name="AboutSpringboot" options="-parameters" />
       <module name="ChargeApi" options="-parameters" />
       <module name="Httpclient" options="-parameters" />
+      <module name="Mybatis" options="-parameters" />
       <module name="Report" options="-parameters" />
     </option>
   </component>
