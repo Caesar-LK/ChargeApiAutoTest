@@ -15,6 +15,7 @@
         <module name="Report" />
         <module name="AboutSpringboot" />
         <module name="Mybatis" />
+        <module name="BasicConfiguration" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,6 +25,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="AboutSpringboot" options="-parameters" />
+      <module name="BasicConfiguration" options="-parameters" />
       <module name="ChargeApi" options="-parameters" />
       <module name="Httpclient" options="-parameters" />
       <module name="Mybatis" options="-parameters" />

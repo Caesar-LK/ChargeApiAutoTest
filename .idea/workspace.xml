@@ -7,10 +7,33 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f4c7e05-d1e0-4e83-92e7-3a0815d57f54" name="Changes" comment="1014TestNg相关内容学习">
+    <list default="true" id="7f4c7e05-d1e0-4e83-92e7-3a0815d57f54" name="Changes" comment="1022TestNg相关内容学习">
+      <change afterPath="$PROJECT_DIR$/BasicConfiguration/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicConfiguration/src/main/java/com/course/config/ExtentTestIReportListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicConfiguration/src/main/java/com/course/config/TestConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicConfiguration/src/main/java/com/course/model/AddUserCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicConfiguration/src/main/java/com/course/model/GetUserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicConfiguration/src/main/java/com/course/model/GetUserList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicConfiguration/src/main/java/com/course/model/InterfaceName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicConfiguration/src/main/java/com/course/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicConfiguration/src/main/java/com/course/model/loginCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicConfiguration/src/main/java/com/course/model/updateUserInfoCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicConfiguration/src/main/java/com/course/utils/ConfigFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicConfiguration/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicConfiguration/src/main/resources/databaseConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicConfiguration/src/main/resources/mapper/SQLMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicConfiguration/src/main/resources/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mybatis/src/main/java/com/course/controller/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis/src/main/java/com/course/controller/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis/src/main/resources/mapper/mysql.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis/src/main/resources/mapper/mysql.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis/target/classes/com/course/controller/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis/target/classes/com/course/controller/Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis/target/classes/mapper/mysql.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis/target/classes/mapper/mysql.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mylog.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/mylog.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +43,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -55,7 +79,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.Application (1).executor": "Debug",
+    "Spring Boot.Application (1).executor": "Run",
     "Spring Boot.Application.executor": "Run",
     "Spring Boot.SampleController.executor": "Run",
     "TestNG./Users/Caesar/ideaworkspace/ChargeApiAutoTest/ChargeApi/src/main/resources/groupsonclass.xml.executor": "Run",
@@ -101,7 +125,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/Caesar/ideaworkspace/ChargeApiAutoTest/Mybatis/src/main/java/org/example/Main.java",
+    "onboarding.tips.debug.path": "/Users/Caesar/ideaworkspace/ChargeApiAutoTest/Chapter/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -115,6 +139,8 @@
       <recent name="$PROJECT_DIR$/Moco" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Chapter/src/main/resources" />
+      <recent name="$PROJECT_DIR$/Chapter/src/main/resources/mapper" />
       <recent name="$PROJECT_DIR$/Mybatis/src/main/resources/mapper" />
     </key>
     <key name="MoveInnerDialog.RECENTS_KEY">
@@ -226,7 +252,7 @@
       <workItem from="1759195888091" duration="50733000" />
       <workItem from="1760925774249" duration="1006000" />
       <workItem from="1761023085542" duration="2986000" />
-      <workItem from="1761095503612" duration="6859000" />
+      <workItem from="1761095503612" duration="22145000" />
     </task>
     <task id="LOCAL-00001" summary="0908TestNg相关构件">
       <option name="closed" value="true" />
@@ -348,7 +374,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760436044107</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="1022TestNg相关内容学习">
+      <option name="closed" value="true" />
+      <created>1761128165241</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1761128165241</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -377,7 +411,8 @@
     <MESSAGE value="0929TestNg相关内容学习" />
     <MESSAGE value="1013TestNg相关内容学习" />
     <MESSAGE value="1014TestNg相关内容学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="1014TestNg相关内容学习" />
+    <MESSAGE value="1022TestNg相关内容学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="1022TestNg相关内容学习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -403,9 +438,9 @@
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Mybatis/src/main/java/com/course/controller/Demo.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="9" />
+          <url>file://$PROJECT_DIR$/BasicConfiguration/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

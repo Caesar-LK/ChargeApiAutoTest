@@ -12,4 +12,14 @@
             insert into course.user(id, name, age, sex)
             values(#{id},#{name}, #{age}, #{sex});
     </insert>
+
+    <update id="updateUser" parameterType="com.course.model.User">
+        update course.user
+        set name = #{name}, age = #{age}, sex = #{sex}
+        where id = #{id};
+    </update>
+
+    <delete id="deleteUser" parameterType="Integer">
+        delete from course.user where id = #{id};
+    </delete>
 </mapper>

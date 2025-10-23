@@ -20,5 +20,6 @@
       <module>Httpclient</module>
     <module>AboutSpringboot</module>
     <module>Mybatis</module>
+      <module>BasicConfiguration</module>
   </modules>
 </project>
