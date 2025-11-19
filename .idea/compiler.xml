@@ -11,8 +11,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ChargeApi" />
-        <module name="Httpclient" />
         <module name="Report" />
+        <module name="MysqlTestDemo" />
+        <module name="Httpclient" />
+        <module name="ChargingPileEtcSettlement" />
         <module name="AboutSpringboot" />
         <module name="Mybatis" />
         <module name="BasicConfiguration" />
@@ -27,8 +29,10 @@
       <module name="AboutSpringboot" options="-parameters" />
       <module name="BasicConfiguration" options="-parameters" />
       <module name="ChargeApi" options="-parameters" />
+      <module name="ChargingPileEtcSettlement" options="-parameters" />
       <module name="Httpclient" options="-parameters" />
       <module name="Mybatis" options="-parameters" />
+      <module name="MysqlTestDemo" options="-parameters" />
       <module name="Report" options="-parameters" />
     </option>
   </component>

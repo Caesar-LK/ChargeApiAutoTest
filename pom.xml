@@ -21,5 +21,7 @@
     <module>AboutSpringboot</module>
     <module>Mybatis</module>
       <module>BasicConfiguration</module>
+      <module>MysqlTestDemo</module>
+      <module>ChargingPileEtcSettlement</module>
   </modules>
 </project>
