@@ -4,15 +4,13 @@ import lombok.Data;
 
 /**
  * @author :Caesar
- * @date 2025/11/11 13:27
+ * @date 2025/11/11 13:32
  **/
-
 @Data
 public class GetUserListCase {
 
     private int id;
     private String userName;
     private int age;
-    private int sex;
     private String expected;
 }

@@ -7,31 +7,17 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f4c7e05-d1e0-4e83-92e7-3a0815d57f54" name="Changes" comment="1104TestNg相关内容学习">
-      <change afterPath="$PROJECT_DIR$/ChargingPileEtcSettlement/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MysqlTestDemo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MysqlTestDemo/src/main/java/com/course/cases/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MysqlTestDemo/src/main/java/com/course/config/ExtentTestIReportListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MysqlTestDemo/src/main/java/com/course/config/TestConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MysqlTestDemo/src/main/java/com/course/model/AddUserCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MysqlTestDemo/src/main/java/com/course/model/GetUserInfoCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MysqlTestDemo/src/main/java/com/course/model/GetUserListCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MysqlTestDemo/src/main/java/com/course/model/InterfaceName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MysqlTestDemo/src/main/java/com/course/model/LoginCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MysqlTestDemo/src/main/java/com/course/model/UpdateUserInfoCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MysqlTestDemo/src/main/java/com/course/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MysqlTestDemo/src/main/java/com/course/utils/ConfigFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MysqlTestDemo/src/main/java/com/course/utils/DatabaseUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MysqlTestDemo/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MysqlTestDemo/src/main/resources/databaseConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MysqlTestDemo/src/main/resources/mapper/SQLMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MysqlTestDemo/src/main/resources/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="7f4c7e05-d1e0-4e83-92e7-3a0815d57f54" name="Changes" comment="1119TestNg相关内容学习">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicConfiguration/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BasicConfiguration/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Httpclient/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Httpclient/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicConfiguration/src/main/java/com/course/model/loginCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/BasicConfiguration/src/main/java/com/course/model/loginCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MysqlTestDemo/src/main/java/com/course/model/AddUserCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/MysqlTestDemo/src/main/java/com/course/model/AddUserCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MysqlTestDemo/src/main/java/com/course/model/GetUserInfoCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/MysqlTestDemo/src/main/java/com/course/model/GetUserInfoCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MysqlTestDemo/src/main/java/com/course/model/GetUserListCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/MysqlTestDemo/src/main/java/com/course/model/GetUserListCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MysqlTestDemo/src/main/java/com/course/model/LoginCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/MysqlTestDemo/src/main/java/com/course/model/LoginCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MysqlTestDemo/src/main/java/com/course/model/UpdateUserInfoCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/MysqlTestDemo/src/main/java/com/course/model/UpdateUserInfoCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MysqlTestDemo/src/main/java/com/course/utils/DatabaseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/MysqlTestDemo/src/main/java/com/course/utils/DatabaseUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MysqlTestDemo/src/main/resources/databaseConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MysqlTestDemo/src/main/resources/databaseConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MysqlTestDemo/src/main/resources/mapper/SQLMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MysqlTestDemo/src/main/resources/mapper/SQLMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +93,7 @@
     "TestNG.IgnoreTest.ignore01.executor": "Run",
     "TestNG.LoginTest.executor": "Run",
     "TestNG.LoginTest.loginFalse.executor": "Run",
-    "TestNG.LoginTest.loginTrue.executor": "Run",
+    "TestNG.LoginTest.loginTrue.executor": "Debug",
     "TestNG.MultiThreadOnXml.executor": "Run",
     "TestNG.MyCookiesForGet.TestGetWithCookies.executor": "Run",
     "TestNG.MyCookiesForGet.executor": "Run",
@@ -153,7 +139,7 @@
       <recent name="com.tester.extend.demo" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest">
+  <component name="RunManager" selected="TestNG.LoginTest.loginTrue">
     <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="Mybatis" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.course.Application" />
@@ -229,8 +215,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="TestNG.LoginTest.loginTrue" />
+        <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="TestNG.LoginTest.loginFalse" />
         <item itemvalue="Spring Boot.Application (1)" />
         <item itemvalue="Spring Boot.Application" />
@@ -268,7 +254,7 @@
       <workItem from="1761023085542" duration="2986000" />
       <workItem from="1761095503612" duration="29777000" />
       <workItem from="1762249538013" duration="18232000" />
-      <workItem from="1763459902923" duration="22332000" />
+      <workItem from="1763459902923" duration="33776000" />
     </task>
     <task id="LOCAL-00001" summary="0908TestNg相关构件">
       <option name="closed" value="true" />
@@ -414,7 +400,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762250612618</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="1119TestNg相关内容学习">
+      <option name="closed" value="true" />
+      <created>1763553798105</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1763553798105</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -446,7 +440,8 @@
     <MESSAGE value="1022TestNg相关内容学习" />
     <MESSAGE value="1023TestNg相关内容学习" />
     <MESSAGE value="1104TestNg相关内容学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="1104TestNg相关内容学习" />
+    <MESSAGE value="1119TestNg相关内容学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="1119TestNg相关内容学习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -485,6 +480,11 @@
           <url>file://$PROJECT_DIR$/ChargingPileEtcSettlement/src/main/java/org/example/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/MysqlTestDemo/src/main/java/com/course/cases/LoginTest.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

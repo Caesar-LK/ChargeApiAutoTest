@@ -7,7 +7,7 @@ import lombok.Data;
  * @date 2025/10/23 17:31
  **/
 @Data
-public class loginCase {
+public class LoginCase {
     private int id;
     private String userName;
     private String password;

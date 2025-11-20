@@ -4,9 +4,8 @@ import lombok.Data;
 
 /**
  * @author :Caesar
- * @date 2025/11/11 13:25
+ * @date 2025/11/11 13:31
  **/
-
 @Data
 public class GetUserInfoCase {
 
