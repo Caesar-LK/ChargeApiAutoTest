@@ -7,12 +7,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f4c7e05-d1e0-4e83-92e7-3a0815d57f54" name="Changes" comment="1124TestNg相关内容学习">
-      <change afterPath="$PROJECT_DIR$/ChargingPileEtcSettlement/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChargingPileEtcSettlement/src/main/resources/databaseConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChargingPileEtcSettlement/src/main/resources/mapper/SQLMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChargingPileEtcSettlement/src/main/resources/testng.xml" afterDir="false" />
+    <list default="true" id="7f4c7e05-d1e0-4e83-92e7-3a0815d57f54" name="Changes" comment="1126充电项目自动化框架搭建基础配置">
+      <change afterPath="$PROJECT_DIR$/ChargingPileEtcSettlement/src/main/java/com/course/model/Charge_user.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChargingPileEtcSettlement/src/main/resources/databaseConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ChargingPileEtcSettlement/src/main/resources/databaseConfig.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,7 +249,8 @@
       <workItem from="1762249538013" duration="18232000" />
       <workItem from="1763459902923" duration="35418000" />
       <workItem from="1763946650766" duration="946000" />
-      <workItem from="1763950472054" duration="7032000" />
+      <workItem from="1763950472054" duration="8546000" />
+      <workItem from="1764830646998" duration="2770000" />
     </task>
     <task id="LOCAL-00001" summary="0908TestNg相关构件">
       <option name="closed" value="true" />
@@ -429,7 +428,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763981264957</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="1126充电项目自动化框架搭建基础配置">
+      <option name="closed" value="true" />
+      <created>1764152351330</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1764152351330</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,7 +471,8 @@
     <MESSAGE value="1119TestNg相关内容学习" />
     <MESSAGE value="1120TestNg相关内容学习" />
     <MESSAGE value="1124TestNg相关内容学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="1124TestNg相关内容学习" />
+    <MESSAGE value="1126充电项目自动化框架搭建基础配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="1126充电项目自动化框架搭建基础配置" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
