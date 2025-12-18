@@ -8,9 +8,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f4c7e05-d1e0-4e83-92e7-3a0815d57f54" name="Changes" comment="1126充电项目自动化框架搭建基础配置">
-      <change afterPath="$PROJECT_DIR$/ChargingPileEtcSettlement/src/main/java/com/course/model/Charge_user.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChargingPileEtcSettlement/src/main/resources/databaseConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ChargingPileEtcSettlement/src/main/resources/databaseConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChargeApi/src/main/java/org/example/parameter/DataProviderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChargeApi/src/main/java/org/example/parameter/DataProviderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Httpclient/src/main/java/com/course/httpclient/cookies/MyCookiesForGet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Httpclient/src/main/java/com/course/httpclient/cookies/MyCookiesForGet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/event.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/event.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,78 +46,78 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Application.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;Notification.DisplayName-DoNotAsk-DatabaseConfigFileWatcher.found&quot;: &quot;Database connection parameters found&quot;,
-    &quot;Notification.DoNotAsk-DatabaseConfigFileWatcher.found&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.Application (1).executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Application.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.SampleController.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG./Users/Caesar/ideaworkspace/ChargeApiAutoTest/ChargeApi/src/main/resources/groupsonclass.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG./Users/Caesar/ideaworkspace/ChargeApiAutoTest/ChargeApi/src/main/resources/multiThread.xml (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG./Users/Caesar/ideaworkspace/ChargeApiAutoTest/ChargeApi/src/main/resources/multiThread.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG./Users/Caesar/ideaworkspace/ChargeApiAutoTest/ChargeApi/src/main/resources/paramter.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG./Users/Caesar/ideaworkspace/ChargeApiAutoTest/ChargeApi/src/main/resources/suite.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG./Users/Caesar/ideaworkspace/ChargeApiAutoTest/Report/src/main/resources/testng.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.BasicAnnotation.TestCase1.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.BasicAnnotation.TestCase2.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.BasicAnnotation.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DataProviderTest (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DataProviderTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DataProviderTest.test1.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DataProviderTest.test2.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DepandTest.Test02.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ExpectedException.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ExpectedException.runTimeExceptionSuccess.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.GroupsOnClass2.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.GroupsOnMethod.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.GroupsOnMethod.test1.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.IgnoreTest (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.IgnoreTest (2).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.IgnoreTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.IgnoreTest.ignore01.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginTest.loginFalse.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginTest.loginTrue.executor&quot;: &quot;Debug&quot;,
-    &quot;TestNG.MultiThreadOnXml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.MyCookiesForGet.TestGetWithCookies.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.MyCookiesForGet.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.MyCookiesForGet.testGetCookies.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.MyCookiesForPost.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.MyCookiesForPost.testPostMethod.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.MyHttpclient.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.MyHttpclient.test01.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ParameterTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ParamterTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.multiThreadOnAnnotion.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.multiThreadOnAnnotion.test01.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.timeoutTest.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/Caesar/ideaworkspace/ChargeApiAutoTest/Moco&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/Caesar/ideaworkspace/ChargeApiAutoTest/ChargingPileEtcSettlement/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Application.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Notification.DisplayName-DoNotAsk-DatabaseConfigFileWatcher.found": "Database connection parameters found",
+    "Notification.DoNotAsk-DatabaseConfigFileWatcher.found": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.Application (1).executor": "Run",
+    "Spring Boot.Application.executor": "Run",
+    "Spring Boot.SampleController.executor": "Run",
+    "TestNG./Users/Caesar/ideaworkspace/ChargeApiAutoTest/ChargeApi/src/main/resources/groupsonclass.xml.executor": "Run",
+    "TestNG./Users/Caesar/ideaworkspace/ChargeApiAutoTest/ChargeApi/src/main/resources/multiThread.xml (1).executor": "Run",
+    "TestNG./Users/Caesar/ideaworkspace/ChargeApiAutoTest/ChargeApi/src/main/resources/multiThread.xml.executor": "Run",
+    "TestNG./Users/Caesar/ideaworkspace/ChargeApiAutoTest/ChargeApi/src/main/resources/paramter.xml.executor": "Run",
+    "TestNG./Users/Caesar/ideaworkspace/ChargeApiAutoTest/ChargeApi/src/main/resources/suite.xml.executor": "Run",
+    "TestNG./Users/Caesar/ideaworkspace/ChargeApiAutoTest/Report/src/main/resources/testng.xml.executor": "Run",
+    "TestNG.BasicAnnotation.TestCase1.executor": "Run",
+    "TestNG.BasicAnnotation.TestCase2.executor": "Run",
+    "TestNG.BasicAnnotation.executor": "Run",
+    "TestNG.DataProviderTest (1).executor": "Run",
+    "TestNG.DataProviderTest.executor": "Run",
+    "TestNG.DataProviderTest.test1.executor": "Run",
+    "TestNG.DataProviderTest.test2.executor": "Run",
+    "TestNG.DepandTest.Test02.executor": "Run",
+    "TestNG.ExpectedException.executor": "Run",
+    "TestNG.ExpectedException.runTimeExceptionSuccess.executor": "Run",
+    "TestNG.GroupsOnClass2.executor": "Run",
+    "TestNG.GroupsOnMethod.executor": "Run",
+    "TestNG.GroupsOnMethod.test1.executor": "Run",
+    "TestNG.IgnoreTest (1).executor": "Run",
+    "TestNG.IgnoreTest (2).executor": "Run",
+    "TestNG.IgnoreTest.executor": "Run",
+    "TestNG.IgnoreTest.ignore01.executor": "Run",
+    "TestNG.LoginTest.executor": "Run",
+    "TestNG.LoginTest.loginFalse.executor": "Run",
+    "TestNG.LoginTest.loginTrue.executor": "Debug",
+    "TestNG.MultiThreadOnXml.executor": "Run",
+    "TestNG.MyCookiesForGet.TestGetWithCookies.executor": "Run",
+    "TestNG.MyCookiesForGet.executor": "Run",
+    "TestNG.MyCookiesForGet.testGetCookies.executor": "Run",
+    "TestNG.MyCookiesForPost.executor": "Run",
+    "TestNG.MyCookiesForPost.testPostMethod.executor": "Run",
+    "TestNG.MyHttpclient.executor": "Run",
+    "TestNG.MyHttpclient.test01.executor": "Run",
+    "TestNG.ParameterTest.executor": "Run",
+    "TestNG.ParamterTest.executor": "Run",
+    "TestNG.multiThreadOnAnnotion.executor": "Run",
+    "TestNG.multiThreadOnAnnotion.test01.executor": "Run",
+    "TestNG.timeoutTest.executor": "Run",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/Caesar/ideaworkspace/ChargeApiAutoTest/Moco",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/Caesar/ideaworkspace/ChargeApiAutoTest/ChargingPileEtcSettlement/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.build.tools.auto.reload": "ALL",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Moco" />
@@ -211,8 +213,6 @@
         <item itemvalue="TestNG.LoginTest.loginTrue" />
         <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="TestNG.LoginTest.loginFalse" />
-        <item itemvalue="Spring Boot.Application (1)" />
-        <item itemvalue="Spring Boot.Application" />
       </list>
     </recent_temporary>
   </component>

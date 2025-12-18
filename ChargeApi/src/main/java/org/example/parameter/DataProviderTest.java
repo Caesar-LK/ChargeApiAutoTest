@@ -9,7 +9,7 @@ import java.lang.reflect.Method;
  * @author :Caesar
  * @date 2025/09/09 11:55
  **/
-public class DataProviderTest {
+public class              DataProviderTest {
 
     @Test(dataProvider = "data")
     public void testDataProvider(String name, int age){
